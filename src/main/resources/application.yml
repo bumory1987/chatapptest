@@ -13,6 +13,10 @@ spring:
     open-in-view: false
     generate-ddl: true
 
+logging:
+  file:
+    path: /home/ubuntu/app/logs
+
 
 
 server:

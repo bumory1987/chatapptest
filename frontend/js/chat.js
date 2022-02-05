@@ -1,4 +1,4 @@
-const url = 'http://18.217.105.45:8087';
+const url = 'http://localhost:8087';
 let stompClient;
 let selectedUser;
 
