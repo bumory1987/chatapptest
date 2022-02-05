@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@CrossOrigin(origins = "http://localhost:50611/*")
+@CrossOrigin(origins = "*")
 @RestController
 public class MessageController {
 
