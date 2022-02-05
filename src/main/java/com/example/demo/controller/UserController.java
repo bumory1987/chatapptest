@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Set;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @RestController
 public class UserController {
 
