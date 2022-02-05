@@ -4,6 +4,7 @@ let selectedUser;
 
 function connectToChat(userName){
     console.log("connecting to chat ....."+ userName)
+    console.log("hi")
     let socket = new SockJS(url + "/chat")
     console.log(socket)
     stompClient = Stomp.over(socket);
