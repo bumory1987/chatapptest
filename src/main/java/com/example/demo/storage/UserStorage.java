@@ -28,4 +28,8 @@ public class UserStorage {
         users.add(userName);
 
     }
+
+    public static void delete(){
+        users = new HashSet<String>();
+    }
 }

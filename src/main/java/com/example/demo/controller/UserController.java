@@ -29,9 +29,15 @@ public class UserController {
             System.out.println("e.getMessage() = " + e.getMessage());
             return ResponseEntity.badRequest().build();
         }
-
-
     }
+
+    @GetMapping("/delete")
+    public ResponseEntity<Void> deleteall(){
+        UserStorage.delete();
+        return ResponseEntity.ok().build();
+    }
+
+
 
     @GetMapping("/fetchAllUsers")
     public Set<String> fetchAll(){
